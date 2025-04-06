@@ -17,12 +17,7 @@ app.use(express.static('views'));
 app.use(express.static('assets'));
 app.use(express.static('images'));
 app.use(express.static('uploads'));
-app.use(express.static('styles'));
-app.use(express.static('scripts'));
-app.use(express.static('fonts'));
-app.use(express.static('images'));
-app.use(express.static('videos'));
-app.use(express.static('audio'));
+
 app.use(express.static('docs'));
 app.use(express.static('data'));
 app.use(express.static('logs'));
